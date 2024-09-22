@@ -3,7 +3,6 @@
 import Link from "next/link";
 import HeroImg from "@/assets/hero_img.jpg";
 import SolutionIntegrations from "@/assets/solution_integrations.webp";
-import SaleImg from "@/assets/sale_img.jpg";
 import Image from "next/image";
 import { ArrowRightIcon, CompassIcon, EarthIcon, TrendingUpIcon } from "lucide-react";
 import Contact from "../Contact";
@@ -170,38 +169,6 @@ export function Landing() {
                 className="text-primary rounded object-cover"
               />
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-        <div className="container mx-auto grid items-center gap-6 px-4 md:px-16 lg:grid-cols-2 lg:gap-10">
-          <div className="space-y-4">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Conviértete en Parte de Nuestra Historia de Éxito
-            </h2>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Como una startup innovadora, buscamos empresas visionarias que se
-              unan a nosotros en nuestra misión de construir un mundo más
-              resiliente ante los desastres naturales. ¿Estás listo para ser
-              parte de la solución?
-            </p>
-            <div className="flex gap-4 lg:justify-start">
-              <Link
-                href="#contacto-empresa"
-                className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              >
-                Contactar Empresa
-              </Link>
-            </div>
-          </div>
-          <div className="flex justify-end">
-            <Image
-              src={SaleImg}
-              width="550"
-              height="310"
-              alt="Soluciones"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-            />
           </div>
         </div>
       </section>
